@@ -1,0 +1,395 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url(../img/background-black.png);
+}
+
+.form-box
+{
+    border: 1px solid #a1a1a1;
+    background-color: rgba(32, 32, 32,0.5);
+    height: 700px;
+    width: 40%;
+    margin-left: 31%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.form-title
+{
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+.form-title h1
+{
+    color: #D51746;
+    font-family: 'helvetica';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.form-control-1 input[type=text]
+{
+    margin-top: 5%;
+    background: none;
+    background-color: #202020;
+    border: 3px solid #D51746;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-control-1 input[type=text]:hover
+{
+    background-color: #252525;
+    border: 3px solid #C80B30;
+}
+
+.form-control-1 input[type=text]:focus
+{
+    outline: none;
+}
+
+.form-control-1 input[type=text]::-webkit-input-placeholder
+{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-control-2 input[type=text]
+{
+    margin-top: 4%;
+    background: none;
+    background-color: #202020;
+    border: 3px solid #D51746;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-control-2 input[type=text]:hover
+{
+    background-color: #252525;
+    border: 3px solid #C80B30;
+}
+
+.form-control-2 input[type=text]:focus
+{
+    outline: none;
+}
+
+.form-control-2 input[type=text]::-webkit-input-placeholder
+{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-control-3 input[type=email]
+{
+    margin-top: 4%;
+    background: none;
+    background-color: #202020;
+    border: 3px solid #D51746;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-control-3 input[type=email]:hover
+{
+    background-color: #252525;
+    border: 3px solid #C80B30;
+}
+
+.form-control-3 input[type=email]:focus
+{
+    outline: none;
+}
+
+.form-control-3 input[type=email]::-webkit-input-placeholder
+{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-control-4 input[type=text]
+{
+    margin-top: 4%;
+    background: none;
+    background-color: #202020;
+    border: 3px solid #D51746;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-control-4 input[type=text]:hover
+{
+    background-color: #252525;
+    border: 3px solid #C80B30;
+}
+
+.form-control-4 input[type=text]:focus
+{
+    outline: none;
+}
+
+.form-control-4 input[type=text]::-webkit-input-placeholder
+{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-control-5 input[type=text]
+{
+    margin-top: 4%;
+    background: none;
+    background-color: #202020;
+    border: 3px solid #D51746;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-control-5 input[type=text]:hover
+{
+    background-color: #252525;
+    border: 3px solid #C80B30;
+}
+
+.form-control-5 input[type=text]:focus
+{
+    outline: none;
+}
+
+.form-control-5 input[type=text]::-webkit-input-placeholder
+{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-control-6 input[type=text]
+{
+    margin-top: 4%;
+    background: none;
+    background-color: #202020;
+    border: 3px solid #D51746;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    width: 60%;
+    height: 60px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.form-control-6 input[type=text]:hover
+{
+    background-color: #252525;
+    border: 3px solid #C80B30;
+}
+
+.form-control-6 input[type=text]:focus
+{
+    outline: none;
+}
+
+.form-control-6 input[type=text]::-webkit-input-placeholder
+{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.form-control-7
+{
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+.form-control-7 button
+{
+    border: 3px solid #D51746;
+    background-color: #D51746;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 75%;
+    cursor: pointer;
+}
+
+.form-control-7 button:focus
+{
+    outline: none;
+}
+
+.form-control-7 button:hover
+{
+    border: 3px solid #323232;
+    background-color: #323232;
+    color: #D51746;
+    transition: .4s ease-in-out;
+    font-style: normal;
+}
+
+.foot-social
+{
+    margin-left: 40%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.footer
+{
+    background-color: black;
+    height: 200px;
+    margin-top: 1%;
+}
+
+.foot-text
+{
+    margin-left: 45.5%;
+    font-family: 'helvetica';
+    font-weight: bolder;
+}
+
+.foot-text p
+{
+    color: #C80B30;
+    font-size: 20px;
+}
+
+.foot-social i
+{
+    padding: 15px 15px;
+}
+
+.foot-social a
+{
+    margin: 10px;
+}
+
+.faceb a
+{
+    border: 1px solid #3b5998;
+    background-color: #3b5998;
+    border-radius: 50%;
+    padding: 14px 8px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.faceb a:hover
+{
+    color: #3b5998;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: all .4s ease-in-out;
+}
+
+.tweet a
+{
+    border: 1px solid #00abef;
+    background-color: #00abef;
+    border-radius: 50%;
+    padding: 14px 2px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.tweet a:hover
+{
+    color: #00abef;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: all .4s ease-in-out;
+}
+
+.instag a
+{
+    border: 1px solid #C13584;
+    background-color: #C13584;
+    border-radius: 50%;
+    padding: 14px 2px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.instag a:hover
+{
+    color: #C13584;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: all .4s ease-in-out;
+}
+
+.youtu a
+{
+    border: 1px solid #FF0000;
+    background-color: #FF0000;
+    border-radius: 50%;
+    padding: 14px 0px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.youtu a:hover
+{
+    color: #FF0000;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: all .4s ease-in-out;
+}
+
+@media screen and ( max-width: 700px )
+{
+    .form-box { margin-left: 6%; width: 90%; margin-top: 2%; }
+    .form-title { margin-top: 8%; margin-left: 20.5%; cursor: pointer; }
+    .form-control-1 input[type=text] { margin-left: 12%; width: 80%; margin-top: 5%; }
+    .form-control-2 input[type=text] { margin-left: 12%; width: 80%; }
+    .form-control-3 input[type=email] { margin-left: 12%; width: 80%; }
+    .form-control-4 input[type=text] { margin-left: 12%; width: 80%; }
+    .form-control-5 input[type=text] { margin-left: 12%; width: 80%; }
+    .form-control-6 input[type=text] { margin-left: 12%; width: 80%; }
+    .form-control-7 { margin-left: 12%; margin-top: 8%; }
+    .form-control-7 button { width: 92%; font-style: normal; }
+    .form-control-7 button:focus { outline: none; }
+    .form-control-7 button:hover { background-color: #D51746; border: 3px solid #D51746; color: #ffffff; }
+    .footer { margin-top: 5%; height: 250px; cursor: pointer; }
+    .foot-text { margin-left: 33%; }
+    .foot-social { margin-left: 18%; margin-top: 8%; }
+    .faceb a:hover { border: 1px solid #3b5998; background-color: #3b5998; color: #ffffff; }
+    .tweet a:hover { border: 1px solid #00abef; background-color: #00abef; color: #ffffff; }
+    .instag a:hover { border: 1px solid #C13584; background-color: #C13584; color: #ffffff; }
+    .youtu a:hover { border: 1px solid #FF0000; background-color: #FF0000; color: #ffffff; }
+}
