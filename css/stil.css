@@ -573,7 +573,7 @@ nav + .content-1
     .line-3 { margin-left: 20%; }
     .page-top { right: 30px; bottom: 20px; }
     .foot-text { margin-left: 42%; }
-    .foot-social { margin-left: 31%; margin-top: 4%; }
+    .foot-social { margin-left: 0%; margin-top: 4%; }
     .faceb a:hover { border: 1px solid #3b5998; background-color: #3b5998; color: #ffffff; }
     .tweet a:hover { border: 1px solid #00abef; background-color: #00abef; color: #ffffff; }
     .instag a:hover { border: 1px solid #C13584; background-color: #C13584; color: #ffffff; }
